@@ -1,0 +1,761 @@
+15:13:23.533 [main] DEBUG org.springframework.boot.devtools.settings.DevToolsSettings - Included patterns for restart : []
+15:13:23.538 [main] DEBUG org.springframework.boot.devtools.settings.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter/target/classes/, /spring-boot-autoconfigure/target/classes/, /spring-boot-starter-[\w-]+/, /spring-boot/target/classes/, /spring-boot-actuator/target/classes/, /spring-boot-devtools/target/classes/]
+15:13:23.538 [main] DEBUG org.springframework.boot.devtools.restart.ChangeableUrls - Matching URLs for reloading : [file:/C:/workspaceGitHub/spring-boot-jsf-primefaces/target/classes/]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.6.RELEASE)
+
+2017-08-12 15:13:24.280  INFO 4380 --- [  restartedMain] r.a.c.SpringBootJsfPrimefacesApplication : Starting SpringBootJsfPrimefacesApplication on RAC with PID 4380 (C:\workspaceGitHub\spring-boot-jsf-primefaces\target\classes started by softtek in C:\workspaceGitHub\spring-boot-jsf-primefaces)
+2017-08-12 15:13:24.282  INFO 4380 --- [  restartedMain] r.a.c.SpringBootJsfPrimefacesApplication : The following profiles are active: dev
+2017-08-12 15:13:24.413  INFO 4380 --- [  restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43e8e062: startup date [Sat Aug 12 15:13:24 CDT 2017]; root of context hierarchy
+2017-08-12 15:13:26.480  INFO 4380 --- [  restartedMain] org.eclipse.jetty.util.log               : Logging initialized @4329ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-08-12 15:13:26.688  INFO 4380 --- [  restartedMain] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 8080
+2017-08-12 15:13:26.692  INFO 4380 --- [  restartedMain] org.eclipse.jetty.server.Server          : jetty-9.4.6.v20170531
+2017-08-12 15:13:26.956  INFO 4380 --- [  restartedMain] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2017-08-12 15:13:26.957  INFO 4380 --- [  restartedMain] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2017-08-12 15:13:26.960  INFO 4380 --- [  restartedMain] org.eclipse.jetty.server.session         : Scavenging every 660000ms
+2017-08-12 15:13:26.968  INFO 4380 --- [  restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2017-08-12 15:13:26.969  INFO 4380 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2563 ms
+2017-08-12 15:13:27.252  INFO 4380 --- [  restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-12 15:13:27.254  INFO 4380 --- [  restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-12 15:13:27.254  INFO 4380 --- [  restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-12 15:13:27.255  INFO 4380 --- [  restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-12 15:13:27.255  INFO 4380 --- [  restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-12 15:13:27.446  INFO 4380 --- [  restartedMain] j.e.resource.webcontainer.jsf.config     : Inicializando Mojarra 2.2.8 ( 20140814-1418 https://svn.java.net/svn/mojarra~svn/tags/2.2.8@13507) para el contexto ''
+2017-08-12 15:13:28.641  INFO 4380 --- [  restartedMain] j.e.r.webcontainer.jsf.application       : JSF1048: hay presentes anotaciones PostConstruct/PreDestroy.  Los métodos de beans administrados marcados con estas anotaciones procesarán dichas anotaciones.
+2017-08-12 15:13:30.382  INFO 4380 --- [  restartedMain] j.e.resource.webcontainer.jsf.config     : Monitoring file:/C:/workspaceGitHub/spring-boot-jsf-primefaces/src/main/webapp/WEB-INF/faces-config.xml for modifications
+2017-08-12 15:13:30.418  INFO 4380 --- [  restartedMain] j.e.resource.webcontainer.jsf.lifecycle  : JSF1027: [null] los ELResolvers para JSF no se han registrado con el contenedor JSP.
+2017-08-12 15:13:30.451  INFO 4380 --- [  restartedMain] .w.PostConstructApplicationEventListener : Running on PrimeFaces 6.1
+2017-08-12 15:13:30.452  INFO 4380 --- [  restartedMain] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@1a9d83ec{/,[file:///C:/workspaceGitHub/spring-boot-jsf-primefaces/src/main/webapp/, jar:file:/C:/Users/softtek/.m2/repository/com/sun/faces/jsf-impl/2.2.8/jsf-impl-2.2.8.jar!/META-INF/resources, jar:file:/C:/Users/softtek/.m2/repository/org/primefaces/primefaces/6.1/primefaces-6.1.jar!/META-INF/resources],AVAILABLE}
+2017-08-12 15:13:30.453  INFO 4380 --- [  restartedMain] org.eclipse.jetty.server.Server          : Started @8304ms
+2017-08-12 15:13:30.943  INFO 4380 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43e8e062: startup date [Sat Aug 12 15:13:24 CDT 2017]; root of context hierarchy
+2017-08-12 15:13:31.053  INFO 4380 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-12 15:13:31.055  INFO 4380 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-12 15:13:31.100  INFO 4380 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-12 15:13:31.100  INFO 4380 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-12 15:13:31.168  INFO 4380 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-12 15:13:31.413  INFO 4380 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-08-12 15:13:31.516  INFO 4380 --- [  restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-08-12 15:13:31.545  INFO 4380 --- [  restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-12 15:13:31.545  INFO 4380 --- [  restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-08-12 15:13:31.564  INFO 4380 --- [  restartedMain] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2017-08-12 15:13:31.611  INFO 4380 --- [  restartedMain] o.e.jetty.server.AbstractConnector       : Started ServerConnector@2341c48d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-08-12 15:13:31.612  INFO 4380 --- [  restartedMain] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 8080 (http/1.1)
+2017-08-12 15:13:31.621  INFO 4380 --- [  restartedMain] r.a.c.SpringBootJsfPrimefacesApplication : Started SpringBootJsfPrimefacesApplication in 8.038 seconds (JVM running for 9.472)
+2017-08-12 15:13:38.630  INFO 4380 --- [tp1477346193-28] j.e.resource.webcontainer.jsf.context    : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+
+javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146) ~[primefaces-6.1.jar:6.1]
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.validate(UIInput.java:975) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57) [primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193) [jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198) [jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646) [jsf-api-2.2.8.jar:2.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206) [websocket-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45) ~[el-ri-1.0.jar:na]
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34) ~[el-ri-1.0.jar:na]
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171) ~[el-ri-1.0.jar:na]
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 67 common frames omitted
+
+2017-08-12 15:13:38.634  WARN 4380 --- [tp1477346193-28] j.e.resource.webcontainer.jsf.lifecycle  : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+
+javax.faces.FacesException: javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:273) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198) [jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646) [jsf-api-2.2.8.jar:2.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206) [websocket-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146) ~[primefaces-6.1.jar:6.1]
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.validate(UIInput.java:975) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 50 common frames omitted
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45) ~[el-ri-1.0.jar:na]
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34) ~[el-ri-1.0.jar:na]
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171) ~[el-ri-1.0.jar:na]
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 67 common frames omitted
+
+2017-08-12 15:13:38.640 ERROR 4380 --- [tp1477346193-28] j.e.resource.webcontainer.jsf.context    : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146)
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045)
+	at javax.faces.component.UIInput.validate(UIInput.java:975)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712)
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575)
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403)
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266)
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 67 more
+
+2017-08-12 15:13:39.065  INFO 4380 --- [tp1477346193-27] j.e.resource.webcontainer.jsf.context    : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+
+javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146) ~[primefaces-6.1.jar:6.1]
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.validate(UIInput.java:975) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57) [primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193) [jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198) [jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646) [jsf-api-2.2.8.jar:2.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206) [websocket-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45) ~[el-ri-1.0.jar:na]
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34) ~[el-ri-1.0.jar:na]
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171) ~[el-ri-1.0.jar:na]
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 67 common frames omitted
+
+2017-08-12 15:13:39.069  WARN 4380 --- [tp1477346193-27] j.e.resource.webcontainer.jsf.lifecycle  : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+
+javax.faces.FacesException: javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:273) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198) [jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646) [jsf-api-2.2.8.jar:2.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206) [websocket-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146) ~[primefaces-6.1.jar:6.1]
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.validate(UIInput.java:975) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 50 common frames omitted
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45) ~[el-ri-1.0.jar:na]
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34) ~[el-ri-1.0.jar:na]
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171) ~[el-ri-1.0.jar:na]
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 67 common frames omitted
+
+2017-08-12 15:13:39.070 ERROR 4380 --- [tp1477346193-27] j.e.resource.webcontainer.jsf.context    : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146)
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045)
+	at javax.faces.component.UIInput.validate(UIInput.java:975)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712)
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575)
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403)
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266)
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 67 more
+
+2017-08-12 15:13:39.126  INFO 4380 --- [tp1477346193-24] j.e.resource.webcontainer.jsf.context    : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+
+javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146) ~[primefaces-6.1.jar:6.1]
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.validate(UIInput.java:975) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57) [primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193) [jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198) [jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646) [jsf-api-2.2.8.jar:2.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206) [websocket-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45) ~[el-ri-1.0.jar:na]
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34) ~[el-ri-1.0.jar:na]
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171) ~[el-ri-1.0.jar:na]
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 67 common frames omitted
+
+2017-08-12 15:13:39.133  WARN 4380 --- [tp1477346193-24] j.e.resource.webcontainer.jsf.lifecycle  : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+
+javax.faces.FacesException: javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:273) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198) [jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646) [jsf-api-2.2.8.jar:2.2]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206) [websocket-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473) [jetty-servlet-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.Server.handle(Server.java:564) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591) [jetty-util-9.4.6.v20170531.jar:9.4.6.v20170531]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146) ~[primefaces-6.1.jar:6.1]
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176) ~[primefaces-6.1.jar:6.1]
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.validate(UIInput.java:975) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700) ~[jsf-api-2.2.8.jar:2.2]
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403) ~[jsf-impl-2.2.8.jar:2.2.8]
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 50 common frames omitted
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45) ~[el-ri-1.0.jar:na]
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34) ~[el-ri-1.0.jar:na]
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171) ~[el-ri-1.0.jar:na]
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98) ~[jsf-impl-2.2.8.jar:2.2.8]
+	... 67 common frames omitted
+
+2017-08-12 15:13:39.162 ERROR 4380 --- [tp1477346193-24] j.e.resource.webcontainer.jsf.context    : javax.el.PropertyNotFoundException: /event.xhtml @18,64 value="#{eventBean.text}": Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:100)
+	at org.primefaces.util.ComponentUtils.getConverter(ComponentUtils.java:146)
+	at org.primefaces.renderkit.InputRenderer.getConvertedValue(InputRenderer.java:176)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1045)
+	at javax.faces.component.UIInput.validate(UIInput.java:975)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1248)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:712)
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:575)
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1689)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1700)
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:403)
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:266)
+	at org.primefaces.context.PrimePartialViewContext.processPartial(PrimePartialViewContext.java:57)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1193)
+	at com.sun.faces.lifecycle.ProcessValidationsPhase.execute(ProcessValidationsPhase.java:76)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:833)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1650)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)
+	at org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.el.PropertyNotFoundException: Target Unreachable, identifier 'eventBean' resolved to null
+	at com.sun.el.parser.AstValue.getTarget(AstValue.java:45)
+	at com.sun.el.parser.AstValue.getType(AstValue.java:34)
+	at com.sun.el.ValueExpressionImpl.getType(ValueExpressionImpl.java:171)
+	at com.sun.faces.facelets.el.TagValueExpression.getType(TagValueExpression.java:98)
+	... 67 more
+
+2017-08-12 15:14:06.982  INFO 4380 --- [192.168.254.128] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-08-12 15:14:06.982  INFO 4380 --- [192.168.254.128] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43e8e062: startup date [Sat Aug 12 15:13:24 CDT 2017]; root of context hierarchy
+2017-08-12 15:14:06.985  INFO 4380 --- [192.168.254.128] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-08-12 15:14:06.995  INFO 4380 --- [192.168.254.128] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@2341c48d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2017-08-12 15:14:06.996  INFO 4380 --- [192.168.254.128] org.eclipse.jetty.server.session         : Stopped scavenging
+2017-08-12 15:14:07.004  INFO 4380 --- [192.168.254.128] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2017-08-12 15:14:07.008  INFO 4380 --- [192.168.254.128] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@1a9d83ec{/,[file:///C:/workspaceGitHub/spring-boot-jsf-primefaces/src/main/webapp/, jar:file:/C:/Users/softtek/.m2/repository/com/sun/faces/jsf-impl/2.2.8/jsf-impl-2.2.8.jar!/META-INF/resources, jar:file:/C:/Users/softtek/.m2/repository/org/primefaces/primefaces/6.1/primefaces-6.1.jar!/META-INF/resources],UNAVAILABLE}
